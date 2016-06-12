@@ -1,8 +1,0 @@
-version: "2"
-
-services:
-  ubuntu14_nginx18_php55:
-    image: imaghonet/ubuntu14_nginx18_php55:stable
-    build:
-      context: ./
-    command: sleep 36000
